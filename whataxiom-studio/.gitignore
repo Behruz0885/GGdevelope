@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+**/node_modules/
+
+# build output
+dist/
+build/
+*.tsbuildinfo
+
+# env
+.env
+.env.local
+*.env
+!.env.example
+
+# runtime data
+server/data/
+server/storage/
+!server/storage/.gitkeep
+
+# logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
